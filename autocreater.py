@@ -15,7 +15,7 @@ if arguments > 1:
     for arg in sys.argv[1:]:
         try:
             str(os.mkdir(arg))
-            print("Created directory: " + str(arg))
+            print("Created directories: " + str(arg))
         except FileExistsError:
             print("Directory " + arg + " " + "already exist")
 
