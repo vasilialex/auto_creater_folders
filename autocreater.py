@@ -6,7 +6,7 @@ import os
 arguments = len(sys.argv)
 
 if arguments <= 1:
-    print("Please, provide directory names separated by space")
+    print("Please, provide directorys names separated by space")
     sys.exit()
 if sys.argv[1] == "--help":
     print("I will create new directory. Please, provide directory names separated by space")
